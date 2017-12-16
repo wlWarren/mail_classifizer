@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Flasky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+    <!-- Bootstrap -->
+    <link href="{{ url_for('static',filename='bootstrap.min.css') }}" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='unite.css') }}">
+
+  </head>
+  <body>
+    
+<div class="navbar navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://139.199.152.113/">Flasky</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="javascript:;">首页</a></li>
+				<li><a href="./product.html">产品</a></li>
+				<li><a href="./sensor.html">传感器</a></li>
+				
+			</ul>
+
+			<button type="button" class="btn btn-default navbar-btn sign-out">退出</button>
+			
+		</div>
+
+	</div>
+</div>
+
+    
+<div class="container">
+	<div class="page-header">
+		<h1>Hello, chj!</h1>
+	</div>
+</div>
+
+    
+	<div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	    	<div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+	          <h4 class="modal-title" id="mySmallModalLabel">Message</h4>
+	        </div>
+	        <div class="modal-body my-alert-body"></div>
+	    </div>
+	  </div>
+	</div>
+    
+
+    
+	
+    <script src="./Flasky_files/jquery.min.js.下载"></script>
+    <script src="./Flasky_files/bootstrap.min.js.下载"></script>
+	<script type="text/javascript" src="./Flasky_files/log-out.js.下载"></script>
+
+  
+
+</body></html>
